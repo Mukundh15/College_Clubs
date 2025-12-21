@@ -150,58 +150,101 @@ function FIT() {
 
             {/* MAIN LEADER */}
             <div className="mt-16 flex justify-center">
-              <div className="bg-white border border-slate-200 rounded-2xl shadow-xl p-10 max-w-md">
-                <img
-                  src="/sowmyab.png"
-                  alt="FIT Lead"
-                  className="w-40 h-40 mx-auto rounded-full object-cover
-                            border-4 border-indigo-200 mb-6"
-                />
+              <div
+                className="
+                  relative bg-white
+                  rounded-3xl
+                  shadow-[0_20px_50px_rgba(79,70,229,0.15)]
+                  p-10 max-w-md
+                  border border-indigo-100
+                  overflow-hidden
+                "
+              >
+                {/* Decorative gradient ring */}
+                <div className="absolute inset-0 -z-10 bg-gradient-to-br from-indigo-50 via-white to-purple-50" />
 
-                <h3 className="text-2xl font-bold text-indigo-700">
-                  Sowmya
+                {/* Avatar */}
+                <div className="relative w-fit mx-auto mb-6">
+                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-400 to-purple-400 blur-md opacity-40" />
+                  <img
+                    src="/sowmyab.png"
+                    alt="FIT Lead"
+                    className="
+                      relative w-40 h-40
+                      rounded-full object-cover
+                      border-[5px] border-white
+                      shadow-lg
+                    "
+                  />
+                </div>
+
+                {/* Name */}
+                <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
+                  Gadila Sowmya
                 </h3>
 
-                <p className="text-sm text-slate-500 font-medium mt-1">
-                  FIT Lead / Student Coordinator
+                {/* Role */}
+                <p className="text-sm font-semibold mt-2 text-indigo-500 tracking-wide">
+                  FIT Lead · Student Coordinator
                 </p>
 
-                <p className="mt-4 text-slate-600 leading-relaxed">
-                  Leads planning, coordination, mentorship initiatives, and
-                  represents FIT across institutional and industry platforms.
+                {/* Divider */}
+                <div className="w-16 h-1 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full mx-auto my-4" />
+
+                {/* Description */}
+                <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
+                  Leads planning, coordination, and mentorship initiatives while
+                  representing FIT across institutional and industry platforms,
+                  ensuring inclusive growth and impactful execution.
                 </p>
               </div>
             </div>
 
             {/* TEAM MEMBERS */}
-            <div className="mt-20">
-              <h3 className="text-xl font-semibold text-slate-700 mb-10">
+            <div className="mt-24">
+              {/* Section Title */}
+              <h3 className="text-2xl font-semibold text-slate-700 mb-12 tracking-wide">
                 Core FIT Team
               </h3>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10">
+              {/* Team Grid */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-12">
                 {[
-                  { name: "Videeksha", img: "/videeksha.jpg" },
-                  { name: "Adbhutha", img: "/Adbutha.png" },
-                  { name: "Hansika", img: "/hansika.png" },
-                  { name: "Moksha", img: "/moksha.jpeg" },
-                  { name: "Nandhini", img: "/nandhini.png" },
-                  { name: "Siri Chandhana", img: "/siri.png" },
-                  { name: "sowmya", img: "/sowmyac.png" },
-                  { name: "sowmya", img: "/SowmyaV.jpg" },
-                  { name: "Sravya", img: "/sravya.jpeg" },
+                  { name: "Dannaram Videeksha", img: "/videeksha.jpg" },
+                  { name: "SreeMouna Gopireddy", img: "/mouna.jpg" },
+                  { name: "Beere Adbhutha", img: "/Adbutha.png" },
+                  { name: "Kasani Hansika Goud", img: "/hansika.png" },
+                  { name: "Boddupally Moksha", img: "/moksha.jpeg" },
+                  { name: "Chanagari Nandini", img: "/nandhini.png" },
+                  { name: "E Siri Chandana", img: "/siri.png" },
+                  { name: "Mogili Sowmya Reddy", img: "/sowmyac.png" },
+                  { name: "Vallepu Sai Soumya", img: "/SowmyaV.jpg" },
+                  { name: "Sravya Chowdary", img: "/sravya.jpeg" },
                 ].map((member, index) => (
                   <div
                     key={index}
-                    className="flex flex-col items-center"
+                    className="
+                      flex flex-col items-center text-center
+                      transition-transform duration-300
+                      hover:-translate-y-2
+                    "
                   >
-                    <img
-                      src={member.img}
-                      alt={member.name}
-                      className="w-28 h-28 rounded-full object-cover
-                                border-2 border-slate-300 shadow-sm"
-                    />
-                    <p className="mt-3 text-sm font-medium text-slate-700">
+                    {/* Image Wrapper */}
+                    <div className="relative mb-4">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-300 to-purple-300 blur-md opacity-40" />
+                      <img
+                        src={member.img}
+                        alt={member.name}
+                        className="
+                          relative w-28 h-28 rounded-full object-cover
+                          border-[3px] border-white
+                          shadow-md
+                        "
+                      />
+                    </div>
+
+                    {/* Name */}
+                    <p className="text-sm font-semibold text-slate-700 leading-snug">
                       {member.name}
                     </p>
                   </div>
