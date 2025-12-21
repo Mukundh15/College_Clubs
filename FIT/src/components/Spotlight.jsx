@@ -8,11 +8,11 @@ export function cn(...inputs) {
 
 export const Spotlight = ({
   gradientFirst =
-    "radial-gradient(70% 70% at 55% 35%, hsla(330, 85%, 78%, 0.20) 0%, hsla(280, 80%, 70%, 0.10) 45%, transparent 80%)",
+    "radial-gradient(70% 70% at 55% 35%, hsla(230, 85%, 70%, 0.22) 0%, hsla(260, 80%, 65%, 0.12) 45%, transparent 80%)",
   gradientSecond =
-    "radial-gradient(55% 55% at 50% 50%, hsla(330, 90%, 85%, 0.14) 0%, transparent 80%)",
+    "radial-gradient(55% 55% at 50% 50%, hsla(220, 90%, 80%, 0.16) 0%, transparent 80%)",
   gradientThird =
-    "radial-gradient(55% 55% at 50% 50%, hsla(270, 85%, 80%, 0.12) 0%, transparent 80%)",
+    "radial-gradient(55% 55% at 50% 50%, hsla(260, 85%, 75%, 0.14) 0%, transparent 80%)",
 
   translateY = -320,
   width = 600,

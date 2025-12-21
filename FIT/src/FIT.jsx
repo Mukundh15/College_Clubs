@@ -29,34 +29,37 @@ function FIT() {
   return (
     <div
       id="top"
-      className="relative w-full bg-gradient-to-br from-rose-50 via-white to-pink-50 overflow-x-hidden"
+      className="relative w-full bg-gradient-to-br from-slate-50 via-white to-indigo-50 overflow-x-hidden"
     >
       <Spotlight />
 
-      <div className="relative z-20 text-gray-700">
+      <div className="relative z-20 text-slate-700">
 
         {/* HERO */}
         <section className="min-h-screen flex flex-col items-center justify-center text-center px-6">
           <img
             src="/FIT.png"
             alt="FIT Logo"
-            className="w-80 md:w-[420px] mb-6 me-7"
+            className="w-80 md:w-[420px] mb-8 me-8"
           />
 
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold">
-            <span className="bg-gradient-to-r from-pink-400 via-rose-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-indigo-800 bg-clip-text text-transparent">
               Female in Technology
             </span>
           </h1>
 
-          <p className="mt-6 text-lg md:text-2xl text-pink-500 font-medium max-w-4xl">
-            A flagship student initiative dedicated to empowering women with
-            confidence, competence, leadership, and equal opportunities in the
-            evolving world of technology.
+          <p className="mt-4 sm:mt-6 md:mt-8 text-base sm:text-lg md:text-2xl text-orange-300 animate-pulse font-medium tracking-wide max-w-3xl">
+            Women. Technology. Leadership.
           </p>
 
-          <Link to="/fit-events" className="mt-10">
-            <BorderedButton>Explore FIT</BorderedButton>
+          <p className="mt-6 text-lg md:text-2xl text-slate-600 font-medium max-w-4xl">
+            A flagship student initiative focused on leadership, innovation,
+            and equal opportunity in the technology ecosystem.
+          </p>
+
+          <Link to="/" className="mt-10">
+            <BorderedButton>Know More</BorderedButton>
           </Link>
         </section>
 
@@ -64,44 +67,43 @@ function FIT() {
         <section id="about" className="py-28 px-6">
           <div className="max-w-6xl mx-auto">
             <HeadingNText title="About Female in Technology (FIT)">
-              Female in Technology (FIT) is a structured, student-driven
-              initiative aimed at empowering women in engineering and computing
-              disciplines through mentorship, awareness, and skill development.
+                FIT (Female in Technology) is a dedicated initiative under
+                Coding Brigade BVRIT (CBB) that empowers female students through
+                equal access to opportunities, mentorship, technical exposure,
+                and leadership development in technology.
             </HeadingNText>
 
-            <div className="mt-12 bg-white/80 border border-pink-200 rounded-2xl p-10 shadow-lg">
+            <div className="mt-12 bg-white border border-slate-200 rounded-2xl p-10 shadow-lg">
               <p className="text-lg leading-relaxed mb-4">
-                FIT was established to address the gender gap in technical fields
-                by creating a supportive and inclusive ecosystem within the
-                college. The initiative focuses on confidence-building,
-                real-world exposure, and long-term career planning for women
-                students.
+                FIT is a student-driven community that nurtures confidence,
+                competence, and career readiness among women in technology. The
+                club bridges the gender gap in tech by creating a supportive
+                ecosystem where students learn, grow, and excel through
+                real-world exposure, scholarships, industry programs, and
+                collaborative learning.
               </p>
               <p className="text-lg leading-relaxed">
-                Through curated learning paths, industry collaboration,
-                peer-to-peer mentorship, and leadership opportunities, FIT
-                ensures that students graduate not only with strong academic
-                foundations but also with professional readiness and clarity.
+                FIT operates under the vision of Coding Brigade BVRIT, aligning
+                technical excellence with inclusivity and empowerment.
               </p>
             </div>
           </div>
         </section>
 
         {/* VISION */}
-        <section id="vision" className="py-28 px-6 bg-white/60">
+        <section id="vision" className="py-28 px-6 bg-slate-50">
           <div className="max-w-6xl mx-auto text-center">
             <HeadingNText title="Our Vision">
-              To cultivate a campus culture where women confidently lead,
-              innovate, and contribute to technological advancement.
+              To cultivate a campus culture where women lead innovation,
+              contribute confidently, and shape the future of technology.
             </HeadingNText>
 
-            <div className="mt-12 bg-white/80 border border-pink-200 rounded-2xl p-10 shadow-lg">
+            <div className="mt-12 bg-white border border-slate-200 rounded-2xl p-10 shadow-lg">
               <p className="text-lg leading-relaxed">
-                FIT envisions a future where gender is never a limitation to
-                technical excellence or leadership. By nurturing talent at the
-                academic level, the initiative aims to create innovators,
-                problem-solvers, entrepreneurs, and leaders who shape the
-                digital future responsibly.
+                  FIT aims to empower female students by creating equal
+                  opportunities in technology through mentorship, skill
+                  development, and industry exposure, building confidence,
+                  competence, and long-term career readiness.
               </p>
             </div>
           </div>
@@ -111,31 +113,28 @@ function FIT() {
         <section id="mission" className="py-28 px-6">
           <div className="max-w-6xl mx-auto">
             <HeadingNText title="Our Mission">
-              To enable women students to develop strong technical foundations,
-              leadership skills, and career clarity through continuous mentorship
-              and exposure.
+              To empower women students with strong technical foundations,
+              leadership skills, and informed career pathways.
             </HeadingNText>
 
             <div className="mt-12 grid md:grid-cols-2 gap-10">
-              <div className="bg-white/80 border border-pink-200 rounded-xl p-8 shadow-lg">
-                <h3 className="text-xl font-bold text-pink-600 mb-3">
-                  Academic & Technical Growth
+              <div className="bg-white border border-slate-200 rounded-xl p-8 shadow-lg">
+                <h3 className="text-xl font-bold text-indigo-600 mb-3">
+                  Academic & Technical Excellence
                 </h3>
-                <p className="leading-relaxed">
-                  FIT supports students through workshops, technical bootcamps,
-                  learning roadmaps, and exposure to emerging technologies
-                  beyond the classroom curriculum.
+                <p>
+                  Workshops, bootcamps, competitions, and exposure to emerging
+                  technologies beyond the curriculum.
                 </p>
               </div>
 
-              <div className="bg-white/80 border border-pink-200 rounded-xl p-8 shadow-lg">
-                <h3 className="text-xl font-bold text-purple-500 mb-3">
-                  Career & Professional Development
+              <div className="bg-white border border-slate-200 rounded-xl p-8 shadow-lg">
+                <h3 className="text-xl font-bold text-violet-600 mb-3">
+                  Career & Professional Readiness
                 </h3>
-                <p className="leading-relaxed">
-                  The initiative provides guidance on internships,
-                  scholarships, global programs, higher studies, and industry
-                  expectations, enabling informed career decisions.
+                <p>
+                  Guidance on internships, scholarships, industry programs,
+                  higher studies, and professional expectations.
                 </p>
               </div>
             </div>
@@ -143,114 +142,68 @@ function FIT() {
         </section>
 
         {/* LEADERSHIP */}
-        <section id="leadership" className="py-28 px-6">
-          <div className="max-w-6xl mx-auto text-center">
+        <section id="leadership" className="py-28 px-6 bg-slate-50">
+          <div className="max-w-7xl mx-auto text-center">
             <HeadingNText title="FIT Leadership & Coordination">
-              The leadership team that drives the vision, execution, and growth of the
-              Female in Technology initiative.
+              Student leadership that drives vision, execution, and impact.
             </HeadingNText>
 
+            {/* MAIN LEADER */}
             <div className="mt-16 flex justify-center">
-              <div className="bg-white/80 border border-pink-200 rounded-2xl shadow-xl p-10 max-w-md text-center">
+              <div className="bg-white border border-slate-200 rounded-2xl shadow-xl p-10 max-w-md">
                 <img
-                  src="/leader.jpg" // replace with actual image
-                  alt="FIT Leader"
-                  className="w-40 h-40 mx-auto rounded-full object-cover border-4 border-pink-300 mb-6"
+                  src="/sowmyab.png"
+                  alt="FIT Lead"
+                  className="w-40 h-40 mx-auto rounded-full object-cover
+                            border-4 border-indigo-200 mb-6"
                 />
 
-                <h3 className="text-2xl font-bold text-pink-600">
-                  Leader Name
+                <h3 className="text-2xl font-bold text-indigo-700">
+                  Sowmya
                 </h3>
-                <p className="text-sm text-purple-500 font-medium mt-1">
+
+                <p className="text-sm text-slate-500 font-medium mt-1">
                   FIT Lead / Student Coordinator
                 </p>
 
-                <p className="mt-4 text-gray-700 leading-relaxed">
-                  Responsible for planning, coordination, mentorship programs, and
-                  representing FIT across institutional and industry platforms.
+                <p className="mt-4 text-slate-600 leading-relaxed">
+                  Leads planning, coordination, mentorship initiatives, and
+                  represents FIT across institutional and industry platforms.
                 </p>
               </div>
             </div>
-          </div>
-        </section>
 
-        {/* KEY FOCUS AREAS */}
-        <section className="py-28 px-6 bg-white/60">
-          <div className="max-w-6xl mx-auto text-center">
-            <HeadingNText title="Key Focus Areas">
-              Core pillars that guide all FIT initiatives and activities.
-            </HeadingNText>
+            {/* TEAM MEMBERS */}
+            <div className="mt-20">
+              <h3 className="text-xl font-semibold text-slate-700 mb-10">
+                Core FIT Team
+              </h3>
 
-            <div className="mt-14 grid md:grid-cols-3 gap-10">
-              {[
-                [
-                  "Technical Excellence",
-                  "Hands-on exposure, workshops, competitions, and continuous learning.",
-                ],
-                [
-                  "Mentorship & Guidance",
-                  "Support from seniors, alumni, faculty, and industry professionals.",
-                ],
-                [
-                  "Leadership & Confidence",
-                  "Encouraging participation, communication, initiative, and ownership.",
-                ],
-              ].map(([t, d], i) => (
-                <div
-                  key={i}
-                  className="bg-white/80 border border-pink-200 rounded-xl p-8 shadow-lg"
-                >
-                  <h3 className="text-xl font-bold text-pink-600 mb-3">
-                    {t}
-                  </h3>
-                  <p>{d}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* PROGRAMS */}
-        <section id="programs" className="py-28 px-6">
-          <div className="max-w-7xl mx-auto">
-            <HeadingNText title="Programs & Opportunities">
-              National and global initiatives that support and uplift women in
-              technology.
-            </HeadingNText>
-
-            <div
-              className="mt-16"
-              onMouseEnter={() => setIsPaused(true)}
-              onMouseLeave={() => setIsPaused(false)}
-            >
-              <div
-                ref={scrollRef}
-                className="flex gap-6 overflow-x-auto pb-8 scroll-smooth"
-              >
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10">
                 {[
-                  ["Grace Hopper Celebration", "https://ghc.anitab.org/"],
-                  ["Amazon WOW", "https://www.amazon.jobs/en/teams/amazon-wow"],
-                  ["Flipkart Girls Wanna Code", "https://www.flipkartgrip.com/"],
-                ].map(([name, link], i) => (
+                  { name: "Videeksha", img: "/videeksha.jpg" },
+                  { name: "Adbhutha", img: "/Adbutha.png" },
+                  { name: "Hansika", img: "/hansika.png" },
+                  { name: "Moksha", img: "/moksha.jpeg" },
+                  { name: "Nandhini", img: "/nandhini.png" },
+                  { name: "Siri Chandhana", img: "/siri.png" },
+                  { name: "sowmya", img: "/sowmyac.png" },
+                  { name: "sowmya", img: "/SowmyaV.jpg" },
+                  { name: "Sravya", img: "/sravya.jpeg" },
+                ].map((member, index) => (
                   <div
-                    key={i}
-                    className="min-w-[320px] bg-white/90 border border-pink-200 rounded-2xl shadow-xl p-8 text-center"
+                    key={index}
+                    className="flex flex-col items-center"
                   >
-                    <h3 className="text-lg font-semibold text-pink-600 mb-4">
-                      {name}
-                    </h3>
-                    <p className="text-sm mb-4">
-                      Awareness, mentorship, and opportunities designed
-                      specifically to support women in technology careers.
+                    <img
+                      src={member.img}
+                      alt={member.name}
+                      className="w-28 h-28 rounded-full object-cover
+                                border-2 border-slate-300 shadow-sm"
+                    />
+                    <p className="mt-3 text-sm font-medium text-slate-700">
+                      {member.name}
                     </p>
-                    <a
-                      href={link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-block bg-gradient-to-r from-pink-400 to-purple-400 text-white px-6 py-2 rounded-lg"
-                    >
-                      Learn More
-                    </a>
                   </div>
                 ))}
               </div>
@@ -259,21 +212,160 @@ function FIT() {
         </section>
 
         {/* WHY FIT */}
-        <section id="why-fit" className="py-28 px-6 bg-white/60">
+        <section id="why-fit" className="py-28 px-6">
           <div className="max-w-6xl mx-auto text-center">
             <HeadingNText title="Why FIT Matters">
-              Creating long-term impact beyond academics.
+              Building long-term impact beyond the classroom.
             </HeadingNText>
 
-            <div className="mt-12 bg-white/80 border border-pink-200 rounded-2xl p-10 shadow-lg">
+            <div className="mt-12 bg-white border border-slate-200 rounded-2xl p-10 shadow-lg">
               <ul className="text-lg space-y-3 text-left max-w-4xl mx-auto">
-                <li>• Builds confidence and technical identity among women</li>
+                <li>• Builds confidence and leadership identity</li>
                 <li>• Encourages participation in national & global programs</li>
-                <li>• Reduces hesitation in leadership and public speaking</li>
-                <li>• Creates a strong peer and mentor support system</li>
-                <li>• Aligns students with industry expectations early</li>
-                <li>• Promotes inclusivity, growth, and innovation on campus</li>
+                <li>• Strengthens mentorship and peer networks</li>
+                <li>• Aligns students with real industry expectations</li>
+                <li>• Promotes inclusivity and innovation on campus</li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* CONTACT */}
+        <section
+          id="contact"
+          className="py-28 px-6 bg-slate-50 border-t border-slate-200"
+        >
+          <div className="max-w-6xl mx-auto">
+            <HeadingNText title="Contact Female in Technology">
+              Have questions, ideas, or collaboration proposals?  
+              The FIT team would love to hear from you.
+            </HeadingNText>
+
+            <div className="mt-16 grid md:grid-cols-2 gap-14 items-start">
+
+              {/* LEFT – INFO + SOCIAL */}
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-indigo-600">
+                    Get in Touch
+                  </h3>
+                  <p className="mt-3 text-slate-600 leading-relaxed">
+                    Reach out to the Female in Technology initiative for mentorship,
+                    events, partnerships, or general queries related to women in tech.
+                  </p>
+                </div>
+
+                {/* CONTACT DETAILS */}
+                <div className="space-y-3 text-slate-700">
+                  <p>
+                    <strong>Email:</strong>{" "}
+                    <a
+                      href="mailto:fit@bvrit.ac.in"
+                      className="text-indigo-600 hover:underline"
+                    >
+                      fit@bvrit.ac.in
+                    </a>
+                  </p>
+
+                  <p>
+                    <strong>Phone:</strong>{" "}
+                    <a
+                      href="tel:+917842070463"
+                      className="text-indigo-600 hover:underline"
+                    >
+                      +91 78420 70463
+                    </a>
+                  </p>
+
+                  <p>
+                    <strong>Location:</strong><br />
+                    B V Raju Institute of Technology,  
+                    Narsapur, Telangana
+                  </p>
+                </div>
+
+                {/* SOCIAL LINKS */}
+                <div>
+                  <h4 className="text-lg font-semibold text-slate-800 mb-3">
+                    Follow & Connect
+                  </h4>
+
+                  <div className="flex gap-4">
+                    <a
+                      href="https://www.instagram.com/your_fit_instagram"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-3 px-5 py-3 rounded-xl
+                                bg-gradient-to-r from-pink-500 to-rose-500
+                                text-white font-medium shadow-md
+                                hover:scale-105 transition"
+                    >
+                      📸 Instagram
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/company/your-fit-linkedin"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-3 px-5 py-3 rounded-xl
+                                bg-gradient-to-r from-blue-600 to-indigo-600
+                                text-white font-medium shadow-md
+                                hover:scale-105 transition"
+                    >
+                      💼 LinkedIn
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* RIGHT – CONTACT FORM */}
+              <div className="bg-white rounded-2xl shadow-xl border border-slate-200 p-10">
+                <h3 className="text-xl font-bold text-slate-800 mb-6">
+                  Send Us a Message
+                </h3>
+
+                <form
+                  action="https://formspree.io/f/xpqarvrj"
+                  method="POST"
+                  className="space-y-5"
+                >
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300
+                              focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                  />
+
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300
+                              focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                  />
+
+                  <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="Your Message"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300
+                              focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                  />
+
+                  <button
+                    type="submit"
+                    className="w-full bg-gradient-to-r from-indigo-500 to-purple-500
+                              text-white py-3 rounded-lg font-semibold
+                              hover:opacity-90 transition"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </section>
