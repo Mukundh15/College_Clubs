@@ -141,6 +141,94 @@ function FIT() {
           </div>
         </section>
 
+        {/* GUIDING PILLARS */}
+        <section
+          id="guiding-pillars"
+          className="py-28 px-6 bg-white/60"
+        >
+          <div className="max-w-6xl mx-auto text-center">
+            <HeadingNText title="Guiding Lights of FIT">
+              With their constant guidance, encouragement, and academic leadership,
+              these mentors have been the backbone of the Female in Technology initiative,
+              inspiring students to grow with confidence and purpose.
+            </HeadingNText>
+
+            <div className="mt-16 flex flex-col sm:flex-row justify-center items-start gap-14">
+
+              {/* PILLAR 1 */}
+              <div className="flex flex-col items-center max-w-sm">
+                <div
+                  className="
+                    relative w-[280px] h-[360px]
+                    rounded-2xl overflow-hidden
+                    bg-white
+                    border border-indigo-100
+                    shadow-[0_20px_50px_rgba(79,70,229,0.15)]
+                  "
+                >
+                  {/* Soft background */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50" />
+
+                  <img
+                    src="/madhu_babu.jpg"
+                    alt="Dr. Ch. Madhu Babu"
+                    className="relative w-full h-full object-cover"
+                  />
+                </div>
+
+                <h3 className="mt-5 text-xl font-bold text-indigo-700">
+                  Dr. Ch. Madhu Babu
+                </h3>
+
+                <p className="text-sm text-slate-600 mt-1">
+                  Head of Department – CSE
+                </p>
+
+                <p className="mt-3 text-sm text-slate-600 leading-relaxed text-center">
+                  Provides strategic direction, academic mentorship, and continuous
+                  support to ensure FIT aligns with institutional excellence and
+                  student growth.
+                </p>
+              </div>
+
+              {/* PILLAR 2 */}
+              <div className="flex flex-col items-center max-w-sm">
+                <div
+                  className="
+                    relative w-[280px] h-[360px]
+                    rounded-2xl overflow-hidden
+                    bg-white
+                    border border-indigo-100
+                    shadow-[0_20px_50px_rgba(79,70,229,0.15)]
+                  "
+                >
+                  {/* Soft background */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50" />
+
+                  <img
+                    src="/pallavi.jpg"
+                    alt="Dr. L. Pallavi"
+                    className="relative w-full h-full object-cover"
+                  />
+                </div>
+
+                <h3 className="mt-5 text-xl font-bold text-indigo-700">
+                  Dr. L. Pallavi
+                </h3>
+
+                <p className="text-sm text-slate-600 mt-1">
+                  Associate Head of Department – CSE
+                </p>
+
+                <p className="mt-3 text-sm text-slate-600 leading-relaxed text-center">
+                  Actively mentors students, supports initiatives for women in technology,
+                  and plays a key role in shaping FIT’s programs and outreach.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* LEADERSHIP */}
         <section id="leadership" className="py-28 px-6 bg-slate-50">
           <div className="max-w-7xl mx-auto text-center">
