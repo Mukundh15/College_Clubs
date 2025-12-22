@@ -23,19 +23,10 @@ const Footer = () => {
         <div className="flex flex-col gap-y-6 items-center justify-center text-center md:flex-row md:items-center md:justify-between md:text-left md:gap-y-0">
           {/* Logo */}
           <div className="flex items-center gap-3 justify-center">
-            <img src="/logo.png" alt="CBB Logo" className="w-12 h-12 object-contain" />
+            <img src="/SRC.png" alt="CBB Logo" className="w-12 h-12 object-contain" />
             <h1 className="text-3xl font-bold logo-text" style={{ fontFamily: 'Revamped, sans-serif' }}>
               SRC
             </h1>
-          </div>
-
-          {/* Navigation */}
-          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-base sm:text-base">
-            <Link to="/" className="text-gray-300 hover:text-[#4cdef5] transition-colors py-1 px-2">Home</Link>
-            <Link to="/about" className="text-gray-300 hover:text-[#4cdef5] transition-colors py-1 px-2">About</Link>
-            <Link to="/team" className="text-gray-300 hover:text-[#4cdef5] transition-colors py-1 px-2">Team</Link>
-            <Link to="/events" className="text-gray-300 hover:text-[#4cdef5] transition-colors py-1 px-2">Events</Link>
-            <Link to="/contact-us" className="text-gray-300 hover:text-[#4cdef5] transition-colors py-1 px-2">Contact</Link>
           </div>
 
           {/* Social Links */}
@@ -66,7 +57,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-6 pt-4 border-t border-white/10 text-center text-sm text-gray-400">
-          © {currentYear} Coding Brigade BVRIT. All rights reserved.
+          © {currentYear} Student Research Cell BVRIT. All rights reserved.
         </div>
       </div>
     </footer>
