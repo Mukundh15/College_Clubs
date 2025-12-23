@@ -170,24 +170,23 @@ function FIT() {
                   <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50" />
 
                   <img
-                    src="/madhu_babu.jpg"
-                    alt="Dr. Ch. Madhu Babu"
+                    src="/pallavi.jpg"
+                    alt="Dr. L. Pallavi"
                     className="relative w-full h-full object-cover"
                   />
                 </div>
 
                 <h3 className="mt-5 text-xl font-bold text-indigo-700">
-                  Dr. Ch. Madhu Babu
+                  Dr. L. Pallavi
                 </h3>
 
                 <p className="text-sm text-slate-600 mt-1">
-                  Head of Department – CSE
+                  Associate Head of Department – CSE
                 </p>
 
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed text-center">
-                  Provides strategic direction, academic mentorship, and continuous
-                  support to ensure FIT aligns with institutional excellence and
-                  student growth.
+                  Actively mentors students, supports initiatives for women in technology,
+                  and plays a key role in shaping FIT’s programs and outreach.
                 </p>
               </div>
 
@@ -206,18 +205,18 @@ function FIT() {
                   <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-purple-50" />
 
                   <img
-                    src="/pallavi.jpg"
-                    alt="Dr. L. Pallavi"
+                    src="/sreedevi.webp"
+                    alt="Mrs. Ch. Sreedevi"
                     className="relative w-full h-full object-cover"
                   />
                 </div>
 
                 <h3 className="mt-5 text-xl font-bold text-indigo-700">
-                  Dr. L. Pallavi
+                  Mrs. Ch. Sreedevi
                 </h3>
 
                 <p className="text-sm text-slate-600 mt-1">
-                  Associate Head of Department – CSE
+                  Academic Mentor – CSE
                 </p>
 
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed text-center">
