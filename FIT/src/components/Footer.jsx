@@ -1,125 +1,100 @@
-import React from "react";
 import {
-  FaHome,
-  FaUsers,
-  FaCalendarAlt,
-  FaEnvelope,
-  FaPhone,
   FaLinkedin,
   FaInstagram,
-  FaTwitter,
+  FaGithub
 } from "react-icons/fa";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+
   return (
-    <footer className="w-full bg-slate-50 text-slate-700 border-t border-slate-200">
-      <div className="max-w-7xl mx-auto px-6 py-12">
+    <footer className={`w-full border-t border-slate-200 bg-white text-slate-700`}>
+      <div className="max-w-7xl mx-auto px-6 py-8">
 
-        {/* TOP */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
 
-          {/* BRAND */}
-          <div className="flex flex-col items-center md:items-start gap-4">
-            <div className="flex items-center gap-3">
-              <img
-                src="/FIT.png"
-                alt="FIT Logo"
-                className="w-12 h-12 object-contain"
-              />
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 via-violet-600 to-indigo-800 bg-clip-text text-transparent">
-                FIT
-              </h2>
-            </div>
-            <p className="text-sm text-slate-600 max-w-xs leading-relaxed">
-              Female in Technology (FIT) is a student-driven initiative focused on
-              empowering women through mentorship, technical excellence, and
-              leadership development in technology.
-            </p>
+        <div className="flex flex-col gap-y-6 items-center justify-center text-center 
+                        md:flex-row md:items-center md:justify-between md:text-left">
+
+
+          {/* Logo */}
+          <div className="flex items-center gap-4 justify-center">
+            <img src="/FIT.png" alt="FIT Logo" className="w-14 h-14 object-contain" />
+            <h1 className="text-3xl font-bold text-indigo-600" style={{ fontFamily: 'Revamped, sans-serif' }}>
+              Female in Technology BVRIT
+            </h1>
           </div>
 
-          {/* NAVIGATION (ANCHOR LINKS) */}
-          <div className="flex flex-col gap-3 items-center md:items-start">
-            <h3 className="font-semibold text-indigo-600 mb-2">
-              Quick Navigation
-            </h3>
 
-            <a href="/#top" className="hover:text-indigo-600 flex items-center gap-2 transition">
-              <FaHome /> Home
-            </a>
-
-            <a href="/#about" className="hover:text-indigo-600 flex items-center gap-2 transition">
-              <FaUsers /> About FIT
-            </a>
-
-            <a href="/#vision" className="hover:text-indigo-600 flex items-center gap-2 transition">
-              <FaUsers /> Vision
-            </a>
-
-            <a href="/#mission" className="hover:text-indigo-600 flex items-center gap-2 transition">
-              <FaUsers /> Mission
-            </a>
-
-            <a href="/#programs" className="hover:text-indigo-600 flex items-center gap-2 transition">
-              <FaCalendarAlt /> Programs
-            </a>
-
-            <a href="/#why-fit" className="hover:text-indigo-600 flex items-center gap-2 transition">
-              <FaUsers /> Why FIT
-            </a>
+          {/* Navigation */}
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-base">
+            <a href="#top" className="transition text-slate-700 hover:text-indigo-600">Home</a>
+            <a href="#about" className="transition text-slate-700 hover:text-indigo-600">About</a>
+            <a href="#mission" className="transition text-slate-700 hover:text-indigo-600">Mission</a>
+            <a href="#leadership" className="transition text-slate-700 hover:text-indigo-600">Leadership</a>
+            <a href="#contact" className="transition text-slate-700 hover:text-indigo-600">Contact</a>
           </div>
 
-          {/* CONTACT & SOCIAL */}
-          <div className="flex flex-col gap-3 items-center md:items-start">
-            <h3 className="font-semibold text-violet-600 mb-2">
-              Connect With Us
-            </h3>
 
+          {/* Social Icons */}
+          <div className="flex items-center justify-center gap-4">
             <a
-              href="mailto:fit@bvrit.ac.in"
-              className="hover:text-indigo-600 flex items-center gap-2 text-sm transition"
+              href="https://www.linkedin.com/company/your-fit-linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition text-slate-700 hover:text-indigo-600"
             >
-              <FaEnvelope /> fit@bvrit.ac.in
+              <FaLinkedin className="w-5 h-5" />
             </a>
+            <a
+              href="https://www.instagram.com/your_fit_instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition text-slate-700 hover:text-pink-500"
+            >
+              <FaInstagram className="w-5 h-5" />
+            </a>
+            <a
+              href="https://github.com/your-fit-github"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition text-slate-700 hover:text-gray-700"
+            >
+              <FaGithub className="w-5 h-5" />
+            </a>
+          </div>
 
+
+          {/* Contact Info */}
+          {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm">
             <a
               href="tel:+917842070463"
-              className="hover:text-indigo-600 flex items-center gap-2 text-sm transition"
+              className={`flex items-center gap-2 transition ${theme === 'dark' ? 'text-gray-300 hover:text-[#4cdef5]' : 'text-gray-700 hover:text-blue-500'
+                }`}
             >
-              <FaPhone /> +91 78420 70463
+              <FaPhone className="w-4 h-4" />
+              +91 78420 70463
             </a>
+            <a
+              href="mailto:fit@bvrit.ac.in"
+              className={`flex items-center gap-2 transition ${theme === 'dark' ? 'text-gray-300 hover:text-[#4cdef5]' : 'text-gray-700 hover:text-blue-500'
+                }`}
+            >
+              <FaEnvelope className="w-4 h-4" />
+              fit@bvrit.ac.in
+            </a>
+          </div> */}
 
-            <div className="flex gap-4 mt-3">
-              <a
-                href="#"
-                aria-label="LinkedIn"
-                className="text-slate-500 hover:text-indigo-600 transition"
-              >
-                <FaLinkedin size={18} />
-              </a>
-              <a
-                href="#"
-                aria-label="Instagram"
-                className="text-slate-500 hover:text-indigo-600 transition"
-              >
-                <FaInstagram size={18} />
-              </a>
-              <a
-                href="#"
-                aria-label="Twitter"
-                className="text-slate-500 hover:text-indigo-600 transition"
-              >
-                <FaTwitter size={18} />
-              </a>
-            </div>
-          </div>
+
         </div>
 
-        {/* BOTTOM */}
-        <div className="mt-12 pt-5 border-t border-slate-200 text-center text-sm text-slate-500">
-          © {currentYear} Female in Technology (FIT). All rights reserved.
+
+        <div className="mt-6 pt-4 border-t border-slate-200 text-center text-sm text-slate-500">
+          © {new Date().getFullYear()} Female in Technology, BVRIT. All rights reserved.
         </div>
+
+
       </div>
     </footer>
   );
