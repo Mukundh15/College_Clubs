@@ -655,7 +655,7 @@ function FIT() {
                           href="tel:+917842070463"
                           className="font-medium text-slate-700 hover:text-indigo-600"
                         >
-                          +91 78420 70463
+                          +91 63050 55156
                         </a>
                       </div>
                     </div>

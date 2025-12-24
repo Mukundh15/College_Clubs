@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex items-center gap-4 justify-center">
             <img src="/FIT.png" alt="FIT Logo" className="w-14 h-14 object-contain" />
             <h1 className="text-3xl font-bold text-indigo-600" style={{ fontFamily: 'Revamped, sans-serif' }}>
-              Female in Technology BVRIT
+              Female in Technology
             </h1>
           </div>
 
