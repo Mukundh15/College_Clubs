@@ -9,7 +9,7 @@ const HeadingNText = ({ title, children }) => {
           text-4xl sm:text-5xl lg:text-6xl
           p-2 sm:p-4 m-6 sm:m-10
           font-extrabold tracking-wide
-          bg-gradient-to-r from-indigo-600 via-violet-600 to-indigo-800
+          bg-gradient-to-r from-[#6FA8DC] via-[#3E7FB3] to-[#004F8B]
           bg-clip-text text-transparent
           leading-tight break-words whitespace-normal
         "

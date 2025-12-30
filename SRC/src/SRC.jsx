@@ -90,7 +90,7 @@ function SRC() {
     if (!track) return;
 
     let animationId;
-    const speed = 0.5; // Slightly increased speed
+    const speed = 1.8; // Slightly increased speed
 
     const totalWidth = track.scrollWidth / 2;
 
@@ -892,10 +892,10 @@ function SRC() {
               </span>
               <div>
                 <a
-                  href="mailto:cbb@bvrit.ac.in"
+                  href="mailto:src@bvrit.ac.in"
                   className="text-sky-400 font-medium hover:text-sky-300 hover:underline"
                 >
-                  cbb@bvrit.ac.in
+                  src@bvrit.ac.in
                 </a>
               </div>
             </div>
@@ -971,38 +971,38 @@ function SRC() {
           {/* SOCIAL ICONS – EXACTLY BELOW LOCATION */}
 
         <div className="pt-4 flex items-center gap-4">
-  <a
-    href="https://www.linkedin.com/company/student-research-cell-bvrit"
-    target="_blank"
-    rel="noreferrer noopener"
-    className="group p-2.5 rounded-full border border-sky-500/40 bg-sky-500/10 flex items-center justify-center text-sky-400 transition-all duration-300 hover:bg-sky-500/20 hover:text-sky-300 hover:scale-110 hover:shadow-lg hover:shadow-sky-500/25"
-    aria-label="Student Research Cell on LinkedIn"
-  >
-    <FaLinkedin className="h-5 w-5" />
-  </a>
+          <a
+            href="https://www.linkedin.com/in/src-bvrit"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="group p-2.5 rounded-full border border-sky-500/40 bg-sky-500/10 flex items-center justify-center text-sky-400 transition-all duration-300 hover:bg-sky-500/20 hover:text-sky-300 hover:scale-110 hover:shadow-lg hover:shadow-sky-500/25"
+            aria-label="Student Research Cell on LinkedIn"
+          >
+            <FaLinkedin className="h-5 w-5" />
+          </a>
 
-  {/* Instagram */}
-  <a
-    href="https://www.instagram.com/student_research_cell_bvrit"
-    target="_blank"
-    rel="noreferrer noopener"
-    className="group p-2.5 rounded-full border border-pink-500/40 bg-pink-500/10 flex items-center justify-center text-pink-400 transition-all duration-300 hover:bg-pink-500/20 hover:text-pink-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/25"
-    aria-label="Student Research Cell on Instagram"
-  >
-    <FaInstagram className="h-5 w-5" />
-  </a>
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/src.bvrit"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="group p-2.5 rounded-full border border-pink-500/40 bg-pink-500/10 flex items-center justify-center text-pink-400 transition-all duration-300 hover:bg-pink-500/20 hover:text-pink-300 hover:scale-110 hover:shadow-lg hover:shadow-pink-500/25"
+            aria-label="Student Research Cell on Instagram"
+          >
+            <FaInstagram className="h-5 w-5" />
+          </a>
 
-  {/* GitHub */}
-  <a
-    href="https://github.com/student-research-cell-bvrit"
-    target="_blank"
-    rel="noreferrer noopener"
-    className="group p-2.5 rounded-full border border-slate-500/50 bg-slate-800/70 flex items-center justify-center text-slate-200 transition-all duration-300 hover:bg-slate-700 hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-slate-400/30"
-    aria-label="Student Research Cell on GitHub"
-  >
-    <FaGithub className="h-5 w-5" />
-  </a>
-</div>
+          {/* GitHub */}
+          <a
+            href="https://github.com/src-bvrit"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="group p-2.5 rounded-full border border-slate-500/50 bg-slate-800/70 flex items-center justify-center text-slate-200 transition-all duration-300 hover:bg-slate-700 hover:text-white hover:scale-110 hover:shadow-lg hover:shadow-slate-400/30"
+            aria-label="Student Research Cell on GitHub"
+          >
+            <FaGithub className="h-5 w-5" />
+          </a>
+        </div>
 
         </div>
       </div>
@@ -1011,7 +1011,7 @@ function SRC() {
       <div className="relative">
         <div className="pointer-events-none absolute inset-0 -z-10 rounded-3xl bg-gradient-to-br from-sky-500/15 via-blue-500/10 to-purple-500/15 blur-xl opacity-80" />
         <form
-          action="https://formspree.io/f/xpqarvrj"
+          action="https://formspree.io/f/mjgvzonb"
           method="POST"
           className="bg-slate-950/70 border border-slate-800/80 rounded-3xl p-8 md:p-9 shadow-[0_18px_60px_rgba(15,23,42,0.9)] flex flex-col gap-6"
         >

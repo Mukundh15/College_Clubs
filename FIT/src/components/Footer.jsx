@@ -20,8 +20,8 @@ const Footer = () => {
 
           {/* Logo */}
           <div className="flex items-center gap-4 justify-center">
-            <img src="/FIT.png" alt="FIT Logo" className="w-14 h-14 object-contain" />
-            <h1 className="text-3xl font-bold text-indigo-600" style={{ fontFamily: 'Revamped, sans-serif' }}>
+            <img src="/FIT.png" alt="FIT Logo" className="w-16 h-14 object-contain mb-1" />
+            <h1 className="text-3xl font-bold text-[#004F8B]" style={{ fontFamily: 'Revamped, sans-serif' }}>
               Female in Technology
             </h1>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
           {/* Social Icons */}
           <div className="flex items-center justify-center gap-4">
             <a
-              href="https://www.linkedin.com/company/your-fit-linkedin"
+              href="https://www.linkedin.com/in/fit-bvrit/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition text-slate-700 hover:text-indigo-600"
@@ -48,7 +48,7 @@ const Footer = () => {
               <FaLinkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://www.instagram.com/your_fit_instagram"
+              href="https://www.instagram.com/fit_bvrit/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition text-slate-700 hover:text-pink-500"
@@ -56,7 +56,7 @@ const Footer = () => {
               <FaInstagram className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/your-fit-github"
+              href="https://github.com/FIT-BVRIT"
               target="_blank"
               rel="noopener noreferrer"
               className="transition text-slate-700 hover:text-gray-700"
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
 
 
-        <div className="mt-6 pt-4 border-t border-slate-200 text-center text-sm text-slate-500">
+        <div className="mt-2 pt-4 border-t border-slate-200 text-center text-sm text-slate-500">
           © {new Date().getFullYear()} Female in Technology, BVRIT. All rights reserved.
         </div>
 
