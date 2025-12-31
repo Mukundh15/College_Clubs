@@ -229,7 +229,7 @@ function FIT() {
                 </h3>
 
                 <p className="text-sm text-slate-600 mt-1">
-                  Associate Head of Department – CSE
+                  Chief Mentor – Female in Technology (FIT)
                 </p>
 
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed text-center">
@@ -264,7 +264,7 @@ function FIT() {
                 </h3>
 
                 <p className="text-sm text-slate-600 mt-1">
-                  Academic Mentor – CSE
+                  Mentorship Lead – Female in Technology (FIT)
                 </p>
 
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed text-center">

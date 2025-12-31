@@ -415,7 +415,7 @@ function SRC() {
                     Dr. Ch. Madhu Babu
                   </h3>
                   <p className="text-slate-400 text-sm mb-4">
-                    Professor & Head of Department, CSE
+                    Chief Academic Advisor – SRC
                   </p>
                   
                   <div className="space-y-2 text-left text-slate-300 text-sm">
@@ -442,7 +442,7 @@ function SRC() {
                     Dr. L. Pallavi
                   </h3>
                   <p className="text-slate-400 text-sm mb-4">
-                    Associate Head of Department, CSE
+                    Research Program Director – SRC
                   </p>
                   
                   <div className="space-y-2 text-left text-slate-300 text-sm">
@@ -469,7 +469,7 @@ function SRC() {
                     Mr. Jagadeesh Dandu
                   </h3>
                   <p className="text-slate-400 text-sm mb-4">
-                    Academic Mentor
+                    Faculty Research Mentor – SRC
                   </p>
                   
                   <div className="space-y-2 text-left text-slate-300 text-sm">
@@ -496,7 +496,7 @@ function SRC() {
                     Mrs. Ch. Sreedevi
                   </h3>
                   <p className="text-slate-400 text-sm mb-4">
-                    Academic Mentor
+                    Faculty Mentor – Research Methodologies
                   </p>
                   
                   <div className="space-y-2 text-left text-slate-300 text-sm">
@@ -523,7 +523,7 @@ function SRC() {
                     Mr. Srinuvasarao Sanapala
                   </h3>
                   <p className="text-slate-400 text-sm mb-4">
-                    Academic Mentor
+                    Faculty Mentor – Research & Innovation
                   </p>
                   
                   <div className="space-y-2 text-left text-slate-300 text-sm">
@@ -550,7 +550,7 @@ function SRC() {
                     Mr. M. Manzoor Hussain
                   </h3>
                   <p className="text-slate-400 text-sm mb-4">
-                    Academic Mentor
+                    Faculty Mentor – Academic Research Support
                   </p>
                   
                   <div className="space-y-2 text-left text-slate-300 text-sm">
