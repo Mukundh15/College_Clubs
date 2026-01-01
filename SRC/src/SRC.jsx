@@ -22,16 +22,34 @@ function SRC() {
       FullPaper:"https://drive.google.com/file/d/1WePEx6iM7ezhhT9rudd9U2JBa-mmllMP/view?usp=sharing",
     },
     {
+      title: "SoulEase : AI Enhanced Personal Journal - Text Based Emotion Detection",
+      authors: "Naga Reshmi Bodepudi,Karthik Sabareesh Boddeti,Anshu Reddy Palle,Lavanya Bhukya,Sai Divya Tej Reddy Bolla,Ch. Sreedevi",
+      link: "https://ieeexplore.ieee.org/document/10673121",
+      FullPaper:"https://drive.google.com/file/d/1D3PYEZT6ORTm3jYpe9An82zGBVBCXMkI/view?usp=drive_link",
+    },
+    {
       title: "PARIJANA, an AI-based Humanoid agent for Enhancing Consumer Experience in Insurance Claims.",
       authors: "Ch. Madhu Babu,L. Pallavi,Mukundh Dubasi,Divyanshi Ontipuli,Kaki Vaishnavi,Kvvn Sai Bhargav",
       link: "https://ieeexplore.ieee.org/document/11176629",
       FullPaper:"https://drive.google.com/file/d/1tkR43Dm8Ifcj9xdY1n1CnAzX65YbBuuj/view?usp=drive_link",
     },
     {
+      title: "Recti Cure : Detecting Cataract Disorder",
+      authors: "A Sai Charan,Aniketh Goje,Bollineni Archana Chowdary,Akoju Venkat Aarin,Lanke Pallavi",
+      link: "https://ieeexplore.ieee.org/document/10742827/keywords#keywords",
+      FullPaper: "https://drive.google.com/file/d/1BUGNIg0biipHgcvg8CC4rOeWlaeT9qzG/view?usp=sharing",
+    },
+    {
       title: "YOLO-Powered Deep Learning Framework for Smart Drone Surveillance in Emergency Rescue Operation",
-      authors: "R. Pitchai, T. Subba Reddy, Boddu Sanjana, Rishi Sri Dopathi, Dannaram Videeksha, Challagolla Sravya Chowdary",
+      authors: "R. Pitchai,T. Subba Reddy,Boddu Sanjana,Rishi Sri Dopathi,Dannaram Videeksha,Challagolla Sravya Chowdary",
       link: "https://ieeexplore.ieee.org/document/11089883",
       FullPaper:"https://drive.google.com/file/d/1Y4PXqVwY5FjHrtl18WOi190JTBtMzypt/view?usp=drivesdk",
+    },
+    {
+      title: "Face Recognition Using openCV- use case on student attendance system",
+      authors: "Anjan Kumar Kamalapur,Begari Srikanth,Asari Shivadeep Yadav,Bachhanaboni Yashwanth,Vivek Duraivelu",
+      link: "https://ieeexplore.ieee.org/document/10725378",
+      FullPaper: "https://drive.google.com/file/d/1RSKNokRlzSwmKjiqQravE324BJr7whjL/view?usp=sharing",
     },
     {
       title: "CARE CONNECT: Revolutionizing Healthcare through AI",
@@ -40,10 +58,22 @@ function SRC() {
       FullPaper:"https://drive.google.com/file/d/11PvgB_4AEnEnGXYpd5oHBT369_NPuCCV/view?usp=drivesdk",
     },
     {
+      title: "Exam Invigilation Scheduler",
+      authors: "Anith Kumar Vadlamudi,Sushma Thigulla,Meghana Veeramachaneni,Shiva Krishna Chaitanya Reddy Vangimalli,Bhaskara Rao Pondugala",
+      link: "https://ieeexplore.ieee.org/document/10673256",
+      FullPaper:"https://anith-kumar.github.io/protfolio-Anith/portfolio/images/2024135814%20(1).pdf",
+    },
+    {
       title: "A Text-Based AI Chatbot for Emotional Support in Student Mental Health",
       authors: "Satish Babu Thunuguntla,Poduri Sesha Sai Sathwik,Nannapaneni Lalitya,Penumatcha Jaya Surya,Kaluvala Sai Kiran,L. Pallavi",
       link: "https://ieeexplore.ieee.org/document/11089562",
       FullPaper:"https://drive.google.com/file/d/1fHmDJ3Te0B_Y2LvR2048itZwj4iF5oAq/view?usp=drivesdk",
+    },
+    {
+      title: "Finance-In-Focus: Mastering Financial Basics through Online Learning",
+      authors: "Surya Sai Sriya Lanka,Velumula Siri Rao,Varikuppala Bhavani,V Mohith Raja Reddy,Lanke Pallavi",
+      link: "https://ieeexplore.ieee.org/document/10816847",
+      FullPaper:"https://drive.google.com/file/d/1glJUxzuzKk9BeYCrnk0zb3xqIZ5hWI_K/view?usp=drive_link",
     },
     {
       title: "BookXchange-An AI Driven Book Trade Hub",
